@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="icon" href="C:\Users\Wolf\Desktop\Proyecto_Web_Jennifer\Logotipo\soyyo.ico">
+	<!-- <link rel="stylesheet" href="css/all.css"> -->
+	<link rel="stylesheet" href="estilo.css">
+	<title>LalalaMedia</title>
+     <script src="Galeria.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="contenedor_logo">
+				<a href="#slider"><img src="C:\Users\Wolf\Desktop\Proyecto_Web_Jennifer\Logotipo\Superherine_Mesa de trabajo 2 copia 11-100.jpg" alt="Logo LalalaMedia" title="LalalaMedia"></a>
+			</div>
+			<nav>
+				<ul>
+				  <li class="fas fa-bars"id="menu" > Menu<ul id="sub_menu">
+                         <li><a href="#slider">Inicio</a></li>
+				     <li><a href="#sobre_mi">Acerca de mí</a></li>
+				     <li><a href="#galeria">Fotografía</a></li>
+				     <li><a href="#tras_camara">Detras de camaras</a></li>
+                         <li><a href="#">Diseño</a></li>
+                         <li><a href="#contacto">Contacto</a></li>
+				   </ul>
+				   </li >
+			    </ul>
+			</nav>
+			</ul>
+		</header>
+		<section class="contenedor_slider" id="slider">
+            	<ul class="section_slider" id="carrusel">
+					<li><img src="imagenes/4.jpg" alt=""></li>
+					<li><img src="imagenes/6.jpg" alt="" ></li>
+					<li><img src="imagenes/7.jpg" alt="" ></li>
+                    <li><img src="imagenes/4.jpg" alt=""></li>
+
+		    	</ul>
+            <!-- contenido principal -->
+            <div class="contenido_principal">
+	            	<h1>CREAMOS PRESENCIA VISUAL </h1>
+	               <p>Creemos en el poder de las grandes ideas.</p>
+	              </div>
+		</section>
+
+                   <!-- Sobre mi -->
+                   <div class="sobre_mi" id="sobre_mi">
+                        <img src="imagenes/logo_sobre_mi.jpg" alt="">
+                        <P> <span>GOQ</span><br>Queremos la mejor imagen para ti y tu empresa somos la mejor opción para tu trabajo ¡Somos especialistas visuales, aseguramos un trabajo de alta calidad con el que aseguramos aumentará tu posicion en el mercado.</P>
+                         <!-- seccion de comentarios -->
+               <section class="contenedor_calificaciones" id="comentarios">
+
+                       <div>
+                              <div><img src="C:\Users\Wolf\Desktop\Proyecto_Web_Jennifer\Imagenes_Fotos\fOTOGRAFÍAS yA\Gato1.jpg" alt="">
+                              </div>
+                              <br>
+                              <p>He tenido la oportunidad de que Jennifer GOQ realice para mí excelentes trabajos en: Fotografía, publicidad, todos con ética y profesionalismo de alto nivel, deseándole mis mayores éxitos. <br><br> <b>Yolimar_merlin1384@hotmail.com</b></p>
+                       </div>
+
+                       <div>
+                              <div><img src="C:\Users\Wolf\Desktop\Proyecto_Web_Jennifer\Imagenes_Fotos\fOTOGRAFÍAS yA\GatoPerro1.jpg" alt=""></div>
+                              <br>
+                              <p>Jennifer hizo una sesión de fotos para mi cuenta en 3 diferentes escenarios  quedé súper complacida, me encantó su labor, súper paciente, nos entendimos completamente. La recomiendo 100%. <br><br><b>@untecondaniela</b></p>
+                       </div>
+
+                       <div>
+                              <div><img src="C:\Users\Wolf\Desktop\Proyecto_Web_Jennifer\Imagenes_Fotos\fOTOGRAFÍAS yA\Cuentasiete.jpg" alt=""></div>
+                              <br>
+                              <p>Tu trabajo es impresionante. Creas un ambiente comodo haces que uno se sienta seguro en las sesiones, tu trabajo merece un puntaje de 5/5, ademas de la dedicacion que le pones a la hora de editar las fotos</p>
+               </section>
+                   </div>
+
+
+                   <!-- galeria -->
+               <section class="contenedor_galeria" id="galeria">
+                    	<!-- galeria grid -->
+               	    <div class="contenedor_grid" id="grid">
+               	    </div>                     
+               </section> 
+               <div class="lightbox" id="lightbox">
+                       <div>
+                            <button type="button" class="ex"><a href="#galeria"  class="fas fa-times">x</a></button>
+                           <button type="button" id="atras"class="fas fa-angle-left"><</button>
+                           <img src="" alt="" id="album">
+                           <button type="button"id=
+                           "adelante" class="fas fa-angle-right">></button>
+                       </div>
+                           
+                        </div>  
+
+                      <!-- Detras de camaras -->
+               <section class="contenedor_galeria" id="tras_camara">
+                         <!-- galeria grid -->
+                        <div class="contenedor_grid" >
+                         <div><img src="imagenes/1.JPG" alt="" ></div>s
+                         <div><img src="imagenes/2.JPG" alt=""></div>
+                         <div><img src="imagenes/3.JPG" alt=""></div>
+                         <div><img src="imagenes/4.JPG" alt=""></div>
+                         <div><img src="imagenes/5.JPG" alt="" ></div>
+                         <div><img src="imagenes/logo.JPG" alt="" ></div>
+                        </div>
+                    </section> 
+              
+                       <!-- Contacto -->
+                       <form action="formulario.php" id="contacto" method="post">
+                         <h3>Contactanos</h3><br><br>
+                            <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required="required">
+                            <input type="text"id="apellido" name="apellido" placeholder="Ingrese su apellido" required="required">
+                            <input type="email" id="contraseña" name="email" placeholder="Ingrese su email" required="required"><br><br>
+                            <textarea name="textarea" id="" maxlength="200" required="required"></textarea>
+                            <input type="submit" name="submit">
+                       </form>
+               <!-- footer -->
+               <footer>
+
+	               	<div>
+	                <h3>CONTACTO</h3><br>
+	               	<p> Jennifer Gómez <br><br> Tel: +58 414-48403 <br> <br>Email: GOQdisefoto@gmail.com / Yugoae@gmail.com <br> <br>Instagram: @lalalamedia / @GOQdisefoto </p>
+	               </div>
+
+               	 <form action="">
+               	 	<textarea placeholder="Escribe tu mensaje aquí." minlength="10" maxlength="15"></textarea><br>
+               	 <button><i class="fab fa-whatsapp"></i></button>
+               	 <button><i class="far fa-envelope"></i></button>
+               	 <button><i class="fab fa-instagram"></i></button>
+               	 </form>
+
+               	 <div class="final">
+               	 	<p >2020 desarrollado por Afters-Noon</p>
+               	 </div>
+               	 
+               </footer>
+               <script src="archivo.js"></script>
+	</body>
+</html>
+
